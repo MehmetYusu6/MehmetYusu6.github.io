@@ -1,0 +1,90 @@
+body{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main-page{
+    background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)),
+    url("https://cdn.pixabay.com/photo/2017/09/08/02/24/chess-2727443_960_720.jpg");    
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    
+}
+.nav-link{
+    color: white  ;
+}
+.nav-link:hover{
+    color: rgb(201, 51, 84) !important;
+    text-decoration: underline;
+    line-height: 1.2rem;
+}
+.icon:hover{
+    color: rgb(201, 51, 84) !important;
+}
+#title{
+    font-size: 48px;
+}
+.under{
+    width:5%;
+    height: 2px;     
+    background-image: linear-gradient(to right,  rgb(201, 51, 84),  rgb(212, 122, 141), rgba(94, 9, 9, 0));  
+}
+
+#hero{
+    background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)),
+    url("https://cdn.pixabay.com/photo/2016/10/07/14/38/lady-1721678_960_720.jpg");    
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+/* About Page Settings*/
+#about-navbar{
+    background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)),
+    url("https://cdn.pixabay.com/photo/2017/09/08/02/24/chess-2727443_960_720.jpg");    
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.size{
+    width: 300px ;
+    height:300px ;
+}
+
+@media screen and (max-width: 992px) {
+    .size {
+        width: 200px ;
+        height:200px ;
+        border-radius: 50%;
+    }
+    .bgchange{
+        background-color: cadetblue !important;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .size {
+        width: 150px ;
+        height:150px ;
+        border-radius: 0%;
+    }
+    .bgchange{
+        background-color: rgb(124, 115, 32) !important;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .size {
+        width: 100px ;
+        height:100px ;
+        border-radius: 50%;
+    }
+    .bgchange{
+        background-color: rgb(29, 27, 138) !important;
+    }
+  }
+  
